@@ -26,9 +26,9 @@ eksiklerimiz;
  dijital kimlikler şifrelenmemiştir. şifreleme aşaması gelişim sürecinde devam edecektir.
 dijital kimliklerle ilgili eklenebilecek fikirleri olanlar belirtirse sevinirim. gelişim sürecinde aklıma gelenleri yaptım. gelmeyenleri de eksiklerimizi de bildirirseniz sevinirim.
 
--dipnot : sistem şifrelenmediği için açık kaynak olarak yayınlamama kararı aldım. güvenlik için. sistem şifreli halde bittikten sonra açık kaynak olarak burada yayınlanacaktır.
-İletişim (Contact) B. Gültekin Çetiner http://twitter.com/drcetiner & ~Paro, (c) 2019
+-dipnot : sistem şifrelenmediği için açık kaynak olarak yayınlamama kararı aldım. güvenlik için. sistem şifreli halde bittikten sonra açık kaynak olarak burada yayınlanacaktır. 
 
+İletişim (Contact) B. Gültekin Çetiner http://twitter.com/drcetiner & ~Paro, (c) 2019
 
 
 # English
