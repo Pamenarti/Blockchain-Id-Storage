@@ -4,14 +4,23 @@ Blockchain Digital Kimlik Saklama Projesi bir Marmara Credit Loop (MCL Core Team
 
 ## Development Resources
 
-- yazı 1
-- yazı 2
+- dijital kimlikleri txid ile okunabilir
+- dijital kimlikler qr code ile okunabilir ("Blockchain Çekirdek" sisteminde basılıyor.) 
+- dijital kimliklere üst yetkililer erişebilir
+- dijital kimliklere en üst yetkili yetkili atayabilir
+- dijital kimliklere yetkisiz erişim yoktur.
 
 
-## List of Komodo Platform Technologies
+## Dijital kimlik şahıs bilgileri
 
-- yazı 2
-- yazı 3  
+- tc no
+- isim
+- soy isim
+- dogum tarihi
+- Şehir
+- adres
+- fotoğraf (yeni eklendi)
+
 
 
 ## Tech Specification
