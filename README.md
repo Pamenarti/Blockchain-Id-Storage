@@ -22,13 +22,6 @@ Blockchain Kimlik Bilgileri saklama projesidir. (Geliştirme ve Test aşamasınd
 - fotoğraf (yeni eklendi)
 
 
-
-## Tech Specification
-- Max Supply: 200 million KMD
-- Block Time: 60 seconds
-- Block Reward: 3 KMD
-- Mining Algorithm: Equihash
-
 eksiklerimiz;
  dijital kimlikler şifrelenmemiştir. şifreleme aşaması gelişim sürecinde devam edecektir.
 dijital kimliklerle ilgili eklenebilecek fikirleri olanlar belirtirse sevinirim. gelişim sürecinde aklıma gelenleri yaptım. gelmeyenleri de eksiklerimizi de bildirirseniz sevinirim.
@@ -72,7 +65,9 @@ I have tried to do my best in the development process. If you have more much ide
 contact :  
 B. Gültekin Çetiner http://twitter.com/drcetiner & ~Paro, (c) 2019
 
-Thanks for translation
+Thanks for translation :
+
 Betül Zengin
+
 https://tr.linkedin.com/in/bet%C3%BCl-zengin-6839b816a
 
