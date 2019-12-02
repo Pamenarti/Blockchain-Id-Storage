@@ -22,11 +22,11 @@ Blockchain Kimlik Bilgileri saklama projesidir. (Geliştirme ve Test aşamasınd
 - fotoğraf (yeni eklendi)
 
 
-eksiklerimiz;
+eksiklerimiz;  
 dijital kimlikler şifrelenmemiştir. şifreleme aşaması gelişim sürecinde devam edecektir.
 dijital kimliklerle ilgili eklenebilecek fikirleri olanlar belirtirse sevinirim. gelişim sürecinde aklıma gelenleri yaptım. gelmeyenleri de eksiklerimizi de bildirirseniz sevinirim.
 
--dipnot : 
+-dipnot :  
 sistem şifrelenmediği için açık kaynak olarak yayınlamama kararı aldım. güvenlik için. sistem şifreli halde bittikten sonra açık kaynak olarak burada yayınlanacaktır. 
 
 İletişim (Contact) : B. Gültekin Çetiner http://twitter.com/drcetiner & ~Paro, (c) 2019
@@ -55,11 +55,11 @@ Blockchain is identity Retention project (It is in development and testing phase
 - address
 - photo (portrait photography-portre foto)
 
-our shortcomings;
+our shortcomings;  
 digital identities were not encrypted. But, the encryption phase will continue in the development process.
 I have tried to do my best in the development process. If you have more much idea about digital identities, could you please let me know that your opinion?
 
-footnote: 
+footnote:  
 I have decided to not release as opensource for security because system is not encrypted. 
 firstly, the system will be finished in encrypted form, then  it will be here as open source.
 
