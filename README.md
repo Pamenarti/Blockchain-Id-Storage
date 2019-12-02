@@ -36,7 +36,7 @@ Zeki Gülen
 
 # English
 
-Blockchain digital identity Retention project is a MARMARACREDITLOOP (Marmara Core Team) project. https://www.marmara.io.  
+Blockchain digital identity Retention project is a MARMARA CREDIT LOOP (Marmara Core Team) project. https://www.marmara.io.  
 Blockchain is identity Retention project (It is in development and testing phase)
 
 ## General Features Of Digital Identity
