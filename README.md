@@ -30,7 +30,8 @@ dijital kimliklerle ilgili eklenebilecek fikirleri olanlar belirtirse sevinirim.
 sistem şifrelenmediği için açık kaynak olarak yayınlamama kararı aldım. güvenlik için. sistem şifreli halde bittikten sonra açık kaynak olarak burada yayınlanacaktır. 
 
 İletişim (Contact) : B. Gültekin Çetiner http://twitter.com/drcetiner & ~Paro, (c) 2019
-
+Developer : 
+Zeki Gülen
 
 # English
 
