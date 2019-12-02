@@ -63,8 +63,8 @@ firstly, the system will be finished in encrypted form, then  it will be here as
 
 contact :  
 B. Gültekin Çetiner http://twitter.com/drcetiner & ~Paro, (c) 2019 
-
 Developer : Zeki Gülen
+
 Thanks for translation :  
 Betül Zengin  
 https://tr.linkedin.com/in/bet%C3%BCl-zengin-6839b816a
