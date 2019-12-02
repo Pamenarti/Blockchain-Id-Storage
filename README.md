@@ -30,10 +30,6 @@ dijital kimliklerle ilgili eklenebilecek fikirleri olanlar belirtirse sevinirim.
 -dipnot :  
 sistem şifrelenmediği için açık kaynak olarak yayınlamama kararı aldım. güvenlik için. sistem şifreli halde bittikten sonra açık kaynak olarak burada yayınlanacaktır. 
 
-İletişim (Contact) : B. Gültekin Çetiner http://twitter.com/drcetiner & ~Paro, (c) 2019  
-Developer :   
-Zeki Gülen
-
 # English
 
 Blockchain digital identity Retention project is a MARMARA CREDIT LOOP (Marmara Core Team) project. https://www.marmara.io.  
@@ -67,8 +63,7 @@ firstly, the system will be finished in encrypted form, then  it will be here as
 
 contact :  
 B. Gültekin Çetiner http://twitter.com/drcetiner & ~Paro, (c) 2019
-
+Developer : Zeki Gülen
 Thanks for translation :  
 Betül Zengin  
 https://tr.linkedin.com/in/bet%C3%BCl-zengin-6839b816a
-
