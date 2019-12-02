@@ -62,7 +62,8 @@ I have decided to not release as opensource for security because system is not e
 firstly, the system will be finished in encrypted form, then  it will be here as open source.
 
 contact :  
-B. Gültekin Çetiner http://twitter.com/drcetiner & ~Paro, (c) 2019
+B. Gültekin Çetiner http://twitter.com/drcetiner & ~Paro, (c) 2019 
+
 Developer : Zeki Gülen
 Thanks for translation :  
 Betül Zengin  
