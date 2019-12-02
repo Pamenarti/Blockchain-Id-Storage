@@ -41,6 +41,7 @@ dijital kimliklerle ilgili eklenebilecek fikirleri olanlar belirtirse sevinirim.
 # English
 
 Blockchain digital identity Retention project is a MARMARA CREDIT LOOP (Marmara Core Team) project. https://www.marmara.io.
+
 Blockchain is identity Retention project (It is in development and testing phase)
 
 ## General Features Of Digital Identity
@@ -67,5 +68,11 @@ I have tried to do my best in the development process. If you have more much ide
 
  footnote: I have decided to not release as opensource for security because system is not encrypted. 
  firstly, the system will be finished in encrypted form, then  it will be here as open source.
+
 contact :  
 B. Gültekin Çetiner http://twitter.com/drcetiner & ~Paro, (c) 2019
+
+Thanks for translation
+Betül Zengin
+https://tr.linkedin.com/in/bet%C3%BCl-zengin-6839b816a
+
