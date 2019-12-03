@@ -1,3 +1,4 @@
+![GitHub Logo](/marmara_coin_logo.png)
 ## Blockchain ID Storage - Marmara Credit Loop Project.
 
 Blockchain Digital Kimlik Saklama Projesi bir Marmara Credit Loop (MCL Core Team) Projesidir. https://www.marmara.io 
