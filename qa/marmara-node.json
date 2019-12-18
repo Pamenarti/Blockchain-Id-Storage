@@ -1,0 +1,11 @@
+{
+  "nodes": [
+    {
+      "name": "Marmara Credit Loop First Node.",
+      "url": "37.148.210.158",
+      "port": 47509,
+      "ssl": false,
+      "cache": false
+    }
+  ]
+}
