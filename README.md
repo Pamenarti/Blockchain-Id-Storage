@@ -7,7 +7,7 @@
 
 
 [![gitstars](https://img.shields.io/github/stars/komodoplatform/komodo?style=social)](https://github.com/KomodoPlatform/komodo/stargazers)
-[![twitter](https://img.shields.io/twitter/follow/komodoplatform?style=social)](https://twitter.com/marmarachain)
+[![twitter](https://img.shields.io/twitter/follow/marmarachain?style=social)](https://twitter.com/marmarachain)
 [![discord](https://img.shields.io/discord/412898016371015680)](https://discord.gg/NzpnAA)
 
 ---
