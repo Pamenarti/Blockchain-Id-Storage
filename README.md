@@ -88,7 +88,7 @@ Marmara v.1.0 Kurulumu ve kullanım dökümanı
 **5. kısım - Installing Komodo**	
 ```
 	cd 
-	git clone https://github.com/jl777/komodo --branch FSM --single-branch
+	git clone https://github.com/marmarachain/Marmara-v.1.0 --branch FSM --single-branch
 	cd komodo
 	./zcutil/fetch-params.sh
 	./zcutil/build.sh -j$(nproc)
