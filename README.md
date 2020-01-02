@@ -156,7 +156,7 @@ Aşağıki komutu kullanarak çalıştırabilirsiniz. aşağıda ki "-pubkey=pub
 
 ```
 ./komodo-cli -ac_name=MARMARATEST getinfo
-./komodo-cli -ac_name=MARMARATEST marmarainfo 0 0 0 0 //to get details
+./komodo-cli -ac_name=MARMARATEST marmarainfo 0 0 0 0 pubkey (to get details)
 ```
 
 **Marmara Chaini farklı modlarda çalıştırma  seçenekleri.**
