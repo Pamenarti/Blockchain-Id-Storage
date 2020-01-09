@@ -14,15 +14,15 @@
 ![MarmaraCreditLoop Logo](/marmara_coin_logo.png "Marmara Credit Loop Logo")
 
 
-# Marmara v.1.0 Kurulumu
+## Marmara v.1.0 Kurulumu
 
 Kurulum sonrası Kredi Döngüsü yapabilmek ve test edebilmek için aşağıdaki dökümanı ziyaret edebilirsiniz.
 https://github.com/marmarachain/Marmara-v.1.0-setup/issues/1
 
 
-Marmara v.1.0 Kurulumu ve kullanım dökümanı
+## Marmara v.1.0 Kurulumu ve kullanım dökümanı
 ----------------------------------------------------------------------------
-**1. kısım - Install the dependency packages**
+## 1. kısım - Install the dependency packages 
 ```	sudo apt-get update
 	sudo apt-get upgrade -y
 	sudo apt install ufw
@@ -33,7 +33,7 @@ Marmara v.1.0 Kurulumu ve kullanım dökümanı
 	sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python zlib1g-dev wget bsdmainutils automake libboost-all-dev libssl-dev libprotobuf-dev protobuf-compiler libgtest-dev libqt4-dev libqrencode-dev libdb++-dev ntp ntpdate software-properties-common curl clang libcurl4-gnutls-dev cmake clang -y
 	sudo apt-get install libsodium-dev
 ```
-**2. kısım - Install nanomsg**
+## 2. kısım - Install nanomsg 
 ```	
 2. kısım
 	Install nanomsg
@@ -57,7 +57,7 @@ Marmara v.1.0 Kurulumu ve kullanım dökümanı
 	sudo ldconfig
 	
 ```
-**3. kısım - Change swap size on to 4GB (Ubuntu)**
+## 3. kısım - Change swap size on to 4GB (Ubuntu) 
 	
 ```
 	sudo swapon --show
@@ -75,7 +75,7 @@ Marmara v.1.0 Kurulumu ve kullanım dökümanı
 	echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 ```
 
-**4 .kısım**
+## 4 .kısım 
 ```	sudo sysctl vm.swappiness=10 
 	This setting will persist until the next reboot. We can set this value automatically at restart by adding the line to our /etc/sysctl.conf file:
 	sudo nano /etc/sysctl.conf 
@@ -85,7 +85,7 @@ Marmara v.1.0 Kurulumu ve kullanım dökümanı
 ```
 
 	
-**5. kısım - Installing Komodo**	
+## 5. kısım - Installing Komodo	
 ```
 	cd 
 	git clone https://github.com/marmarachain/Marmara-v.1.0 --branch FSM --single-branch
@@ -100,7 +100,7 @@ Marmara v.1.0 Kurulumu ve kullanım dökümanı
 
 Wallet adresi ve Pubkey alıp - pubkey ile Staking mod da başlatma.
 
-**chain e start verelim.**
+## chain e start verelim. 
 
 src klasorümüze girelim.
 
@@ -110,7 +110,7 @@ chaine ilk startımızı verelim.
 
 	./komodod -ac_name=MARMARATEST -ac_supply=2000000 -ac_cc=2 -addnode=37.148.210.158 -addressindex=1 -spentindex=1 -ac_marmara=1 -ac_staked=75 -ac_reward=3000000000 &
 
-**ardından bir wallet adresi oluşturup not alınız.**
+## ardından bir wallet adresi oluşturup not alınız. 
 
 	./komodo-cli -ac_name=MARMARATEST getnewaddress
 
@@ -118,7 +118,7 @@ chaine ilk startımızı verelim.
 
    RJajZNoEcCRD5wduqt1tna5DiLqiBC23bo
 
-**oluşturulan wallet adresini alttaki komuttaki "wallet-adresi" yazan kısma girip enter'a basıyoruz**
+## oluşturulan wallet adresini alttaki komuttaki "wallet-adresi" yazan kısma girip enter'a basıyoruz 
 
 	./komodo-cli -ac_name=MARMARATEST validateaddress "wallet-adresi" 
 
