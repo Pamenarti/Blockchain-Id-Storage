@@ -106,7 +106,7 @@ src klasorümüze girelim.
 
 	cd ~/komodo/src
   
-chaine ilk startımızı verelim.
+## chaine ilk startımızı verelim.
 
 	./komodod -ac_name=MARMARATEST -ac_supply=2000000 -ac_cc=2 -addnode=37.148.210.158 -addressindex=1 -spentindex=1 -ac_marmara=1 -ac_staked=75 -ac_reward=3000000000 &
 
@@ -114,7 +114,7 @@ chaine ilk startımızı verelim.
 
 	./komodo-cli -ac_name=MARMARATEST getnewaddress
 
-**örnek wallet adresi** 
+## örnek wallet adresi 
 
    RJajZNoEcCRD5wduqt1tna5DiLqiBC23bo
 
@@ -124,7 +124,7 @@ chaine ilk startımızı verelim.
 
 
 
-**bu şekilde çıktı alacaksınız. ve burada yazan pubkey i de not alınız.**
+## bu şekilde çıktı alacaksınız. ve burada yazan pubkey i de not alınız. 
 ```
 ": true,
 "address": "RJajZNoEcCRD5wduqt1tna5DiLqiBC23bo",
@@ -179,8 +179,8 @@ cd /komodo/src
 ```
 
 ----------------------------------------------------------------------------
-## İletişim 
-(Contact) B. Gültekin Çetiner http://twitter.com/drcetiner & ~Paro, (c) 2019
+## İletişim (Contact) 
+B. Gültekin Çetiner http://twitter.com/drcetiner & ~Paro, (c) 2019
 ----------------------------------------------------------------------------
 
 
