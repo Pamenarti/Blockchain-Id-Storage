@@ -178,10 +178,10 @@ cd /komodo/src
 ./komodod -ac_name=MARMARATEST -ac_supply=2000000 -ac_cc=2 -addnode=37.148.210.158 -addressindex=1 -spentindex=1 -ac_marmara=1 -ac_staked=75 -ac_reward=3000000000 -gen -genproclimit=2 -pubkey="pubkeyburayagirilecek" &
 ```
 
-----------------------------------------------------------------------------
+
 ## İletişim (Contact) 
 B. Gültekin Çetiner http://twitter.com/drcetiner & ~Paro, (c) 2019
-----------------------------------------------------------------------------
+
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
