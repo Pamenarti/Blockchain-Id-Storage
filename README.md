@@ -10,7 +10,7 @@
 [![twitter](https://img.shields.io/twitter/follow/marmarachain?style=social)](https://twitter.com/marmarachain)
 [![discord](https://img.shields.io/discord/412898016371015680)](https://discord.gg/NzpnAA)
 
----
+
 ![MarmaraCreditLoop Logo](/marmara_coin_logo.png "Marmara Credit Loop Logo")
 
 
@@ -167,8 +167,6 @@ Aşağıki komutu kullanarak çalıştırabilirsiniz. aşağıda ki "-pubkey=pub
 -genproclimit=0  Şayet 0 yaparsanız Staking modunda çalışır ve Aktif coini kullanarak Staking yaparsınız.
 
 ```
-
-----------------------------------------------------------------------------
 
 ## Not : Sunucu kapanma durumunda yapılacaklar. 
 
