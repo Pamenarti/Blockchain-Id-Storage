@@ -140,26 +140,26 @@ chaine ilk startımızı verelim.
 
  oluşturulan pubkeyi niz : 03a3f641c4679c579b20c597435e8a32d50091bfc56e28303f5eb26fb1cb1eee72
 
-**Chaini  durduruyoruz.**
+## Chaini  durduruyoruz. 
 
 ./komodo-cli -ac_name=MARMARATEST stop
 
-**Sırada pubkeyimizi kullanarak chain i Mining modun da çalıştırmak.**
+## Sırada pubkeyimizi kullanarak chain i Mining modun da çalıştırmak. 
 
 Aşağıki komutu kullanarak çalıştırabilirsiniz. aşağıda ki "-pubkey=pubkeyburayagirilecek"  kısma not aldığınız pubkeyi giriniz. ve alttaki komut satırını düzenledikten sonra "cd komodo/src" klasorüne girip yapıştırın.
 	
  ./komodod -ac_name=MARMARATEST -ac_supply=2000000 -ac_cc=2 -addnode=37.148.210.158 -addressindex=1 -spentindex=1 -ac_marmara=1 -ac_staked=75 -ac_reward=3000000000 -gen -genproclimit=2 -pubkey="pubkeyburayagirilecek" &
 
-**Ve artık mining halde çalışıyor sunucumuz.** 
+## Ve artık mining halde çalışıyor sunucumuz. 
 
-**mining dökümlerinize aşağıdaki kodları kullanarak ulaşabilirsiniz.**
+## mining dökümlerinize aşağıdaki kodları kullanarak ulaşabilirsiniz. 
 
 ```
 ./komodo-cli -ac_name=MARMARATEST getinfo
 ./komodo-cli -ac_name=MARMARATEST marmarainfo 0 0 0 0 pubkey (to get details)
 ```
 
-**Marmara Chaini farklı modlarda çalıştırma  seçenekleri.**
+## Marmara Chaini farklı modlarda çalıştırma  seçenekleri. 
 
 ```
 -genproclimit=-1 Şayet -1 yaparsanız tüm işlemci (CPU) günü kullanır.
@@ -170,7 +170,7 @@ Aşağıki komutu kullanarak çalıştırabilirsiniz. aşağıda ki "-pubkey=pub
 
 ----------------------------------------------------------------------------
 
-**Not : Sunucu kapanma durumunda yapılacaklar.**
+## Not : Sunucu kapanma durumunda yapılacaklar. 
 
 ```
 cd /komodo/src
@@ -179,7 +179,8 @@ cd /komodo/src
 ```
 
 ----------------------------------------------------------------------------
-İletişim (Contact) B. Gültekin Çetiner http://twitter.com/drcetiner & ~Paro, (c) 2019
+## İletişim 
+(Contact) B. Gültekin Çetiner http://twitter.com/drcetiner & ~Paro, (c) 2019
 ----------------------------------------------------------------------------
 
 
