@@ -103,25 +103,27 @@ Wallet adresi ve Pubkey alıp - pubkey ile Staking mod da başlatma.
 ## chain e start verelim. 
 
 src klasorümüze girelim.
-
+```
 	cd ~/komodo/src
+```
   
 ## chaine ilk startımızı verelim.
-
+```
 	./komodod -ac_name=MARMARATEST -ac_supply=2000000 -ac_cc=2 -addnode=37.148.210.158 -addressindex=1 -spentindex=1 -ac_marmara=1 -ac_staked=75 -ac_reward=3000000000 &
+```
 
 ## ardından bir wallet adresi oluşturup not alınız. 
-
+```
 	./komodo-cli -ac_name=MARMARATEST getnewaddress
-
+```
 ## örnek wallet adresi 
-
+```
    RJajZNoEcCRD5wduqt1tna5DiLqiBC23bo
-
+```
 ## oluşturulan wallet adresini alttaki komuttaki "wallet-adresi" yazan kısma girip enter'a basıyoruz 
-
+```
 	./komodo-cli -ac_name=MARMARATEST validateaddress "wallet-adresi" 
-
+```
 
 
 ## bu şekilde çıktı alacaksınız. ve burada yazan pubkey i de not alınız. 
@@ -141,9 +143,9 @@ src klasorümüze girelim.
  oluşturulan pubkeyi niz : 03a3f641c4679c579b20c597435e8a32d50091bfc56e28303f5eb26fb1cb1eee72
 
 ## Chaini  durduruyoruz. 
-
+```
 ./komodo-cli -ac_name=MARMARATEST stop
-
+```
 ## Sırada pubkeyimizi kullanarak chain i Mining modun da çalıştırmak. 
 
 Aşağıki komutu kullanarak çalıştırabilirsiniz. aşağıda ki "-pubkey=pubkeyburayagirilecek"  kısma not aldığınız pubkeyi giriniz. ve alttaki komut satırını düzenledikten sonra "cd komodo/src" klasorüne girip yapıştırın.
