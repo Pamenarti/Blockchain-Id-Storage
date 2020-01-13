@@ -26,7 +26,7 @@ OS : Ubuntu 16.04 LTS x86_64
 ```
 
 ## Marmara v.1.0 kurulum adımları
-----------------------------------------------------------------------------
+
 ## 1. kısım - Install the dependency packages 
 ```	sudo apt-get update
 	sudo apt-get upgrade -y
@@ -101,8 +101,7 @@ OS : Ubuntu 16.04 LTS x86_64
 ```
 
 **Bu sıralamadan sonra her şey normal çalışır vaziyette olacaktır. Marmara Chain sorunsuz vaziyette kullanabilirsiniz.**
-----------------------------------------------------------------------------
-
+---
 Wallet adresi ve Pubkey alıp - pubkey ile Staking mod da başlatma.
 
 ## chain e start verelim. 
@@ -184,6 +183,12 @@ cd /komodo/src
 ./komodod -ac_name=MARMARATEST -ac_supply=2000000 -ac_cc=2 -addnode=37.148.210.158 -addressindex=1 -spentindex=1 -ac_marmara=1 -ac_staked=75 -ac_reward=3000000000 -gen -genproclimit=2 -pubkey="pubkeyburayagirilecek" &
 ```
 
+
+
+
+
+
+
 ---
 ---
 ---
@@ -198,10 +203,8 @@ Min. 4 GB Free RAM
 Min. 2 CPUs
 OS : Ubuntu 16.04 LTS x86_64
 ```
-
-### Setup  
 ## Marmara v.1.0 setup and docs.
-----------------------------------------------------------------------------
+
 ## 1. step - Install the dependency packages 
 ```	sudo apt-get update
 	sudo apt-get upgrade -y
@@ -277,7 +280,7 @@ OS : Ubuntu 16.04 LTS x86_64
 *** Note: The installation process takes 20 to 45 minutes.
 
 ### After the setup, you are ready to use MCL blockchain
-
+---
 Start at staking mode by getting wallet address and pubkey
 
 ### Start the chain.
