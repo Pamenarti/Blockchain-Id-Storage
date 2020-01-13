@@ -25,7 +25,7 @@ Min. 2 CPUs
 OS : Ubuntu 16.04 LTS x86_64
 ```
 
-## Marmara v.1.0 setup and docs.
+## Marmara v.1.0 kurulum adımları
 ----------------------------------------------------------------------------
 ## 1. kısım - Install the dependency packages 
 ```	sudo apt-get update
@@ -202,7 +202,7 @@ OS : Ubuntu 16.04 LTS x86_64
 ### Setup  
 ## Marmara v.1.0 setup and docs.
 ----------------------------------------------------------------------------
-## 1. kısım - Install the dependency packages 
+## 1. step - Install the dependency packages 
 ```	sudo apt-get update
 	sudo apt-get upgrade -y
 	sudo apt install ufw
@@ -213,7 +213,7 @@ OS : Ubuntu 16.04 LTS x86_64
 	sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python zlib1g-dev wget bsdmainutils automake libboost-all-dev libssl-dev libprotobuf-dev protobuf-compiler libgtest-dev libqt4-dev libqrencode-dev libdb++-dev ntp ntpdate software-properties-common curl clang libcurl4-gnutls-dev cmake clang -y
 	sudo apt-get install libsodium-dev
 ```
-## 2. kısım - Install nanomsg 
+## 2. step - Install nanomsg 
 ```	
 2. kısım
 	Install nanomsg
@@ -237,7 +237,7 @@ OS : Ubuntu 16.04 LTS x86_64
 	sudo ldconfig
 	
 ```
-## 3. kısım - Change swap size on to 4GB (Ubuntu) 
+## 3. step - Change swap size on to 4GB (Ubuntu) 
 	
 ```
 	sudo swapon --show
@@ -255,7 +255,7 @@ OS : Ubuntu 16.04 LTS x86_64
 	echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 ```
 
-## 4 .kısım 
+## 4 .step 
 ```	sudo sysctl vm.swappiness=10 
 	This setting will persist until the next reboot. We can set this value automatically at restart by adding the line to our /etc/sysctl.conf file:
 	sudo nano /etc/sysctl.conf 
@@ -265,7 +265,7 @@ OS : Ubuntu 16.04 LTS x86_64
 ```
 
 	
-## 5. kısım - Installing Komodo	
+## 5. step - Installing Komodo	
 ```
 	cd 
 	git clone https://github.com/marmarachain/Marmara-v.1.0 komodo --branch FSM --single-branch
