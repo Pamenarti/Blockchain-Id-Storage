@@ -33,7 +33,7 @@ sistem şifrelenmediği için açık kaynak olarak yayınlamama kararı aldım. 
 
 # English
 
-Blockchain digital identity Retention project is a MARMARA CREDIT LOOP (Marmara Core Team) project. https://www.marmara.io.  
+Blockchain digital identity Retention project is a Komodo Platform - Paro  project.  
 Blockchain is identity Retention project (It is in development and testing phase)
 
 ## General Features Of Digital Identity
