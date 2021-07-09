@@ -1,7 +1,7 @@
 ![GitHub Logo](/marmara_coin_logo.png)
-## Blockchain ID Storage - Marmara Credit Loop Project.
+## Blockchain ID Storage - Komodo Platform - Paro  Project.
 
-Blockchain Digital Kimlik Saklama Projesi bir Marmara Credit Loop (MCL Core Team) Projesidir. https://www.marmara.io 
+Blockchain Digital Kimlik Saklama Projesi bir Projesidir.
 Blockchain Kimlik Bilgileri saklama projesidir. (Geliştirme ve Test aşamasındadır.)
 
 ## Development Resources
@@ -63,7 +63,7 @@ I have decided to not release as opensource for security because system is not e
 firstly, the system will be finished in encrypted form, then  it will be here as open source.
 
 ## contact :  
-B. Gültekin Çetiner http://twitter.com/drcetiner & ~Paro, (c) 2019  
+~Paro, (c) 2019  (discord id : Paro#7842)
 
 
 ## Thanks for translation :  
