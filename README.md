@@ -1,4 +1,4 @@
-![GitHub Logo](/marmara_coin_logo.png)
+
 ## Blockchain ID Storage - Komodo Platform - Paro  Project.
 
 Blockchain Digital Kimlik Saklama Projesi bir Projesidir.
