@@ -118,7 +118,7 @@ struct CreditLoopOpret {
         escrowOn = false;
         blockageAmount = 0LL;
 		
-		//std::string tcno; 31 31
+		//std::string AnketBasliksd; asdasd
 		//std::string ad;
 		//std::string soyad;
 		//std::string dogumtarihi;
