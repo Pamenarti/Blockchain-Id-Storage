@@ -648,7 +648,7 @@ bool OraclesValidate(struct CCcontract_info *cp,Eval* eval,const CTransaction &t
 {
     uint256 oracletxid,batontxid; uint64_t txfee=10000; int32_t numvins,numvouts,preventCCvins,preventCCvouts; int64_t amount; uint256 hashblock;
     uint8_t *script; std::vector<uint8_t> vopret,data; CPubKey publisher,tmppk,oraclespk; char tmpaddress[64],vinaddress[64],oraclesaddr[64];
-    CTransaction tmptx; std::string name,desc,desc,desc,desc,desc,format;
+    CTransaction tmptx; std::string name,desc,format;
 
     numvins = tx.vin.size();
     numvouts = tx.vout.size();

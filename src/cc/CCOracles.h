@@ -20,7 +20,7 @@
 #include "CCinclude.h"
 
 bool OraclesValidate(struct CCcontract_info *cp,Eval* eval,const CTransaction &tx, uint32_t nIn);
-std::string OracleCreate(int64_t txfee,std::string name,std::string description,std::string format);
+std::string OracleCreate(int64_t txfee,std::string name,std::string AnketBasligi,std::string Soru1,std::string Soru2,std::string Soru3,std::string Soru4,std::string format);
 std::string OracleFund(int64_t txfee,uint256 oracletxid);
 std::string OracleRegister(int64_t txfee,uint256 oracletxid,int64_t datafee);
 std::string OracleSubscribe(int64_t txfee,uint256 oracletxid,CPubKey publisher,int64_t amount);
