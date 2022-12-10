@@ -414,7 +414,7 @@ bool GatewaysExactAmounts(struct CCcontract_info *cp,Eval* eval,const CTransacti
 
 int64_t GatewaysVerify(char *refdepositaddr,uint256 oracletxid,int32_t claimvout,std::string refcoin,uint256 cointxid,const std::string deposithex,std::vector<uint8_t>proof,uint256 merkleroot,CPubKey destpub,uint8_t taddr,uint8_t prefix,uint8_t prefix2)
 {
-    std::vector<uint256> txids; uint256 proofroot,hashBlock,txid = zeroid; CTransaction tx; std::string name,description,format;
+    std::vector<uint256> txids; uint256 proofroot,hashBlock,txid = zeroid; CTransaction tx; std::string name,AnketBasligi,Soru1,Soru2,Soru3,Soru4,format;
     char destaddr[64],destpubaddr[64],claimaddr[64]; int32_t i,numvouts; int64_t nValue = 0;
     
     if ( myGetTransaction(oracletxid,tx,hashBlock) == 0 || (numvouts= tx.vout.size()) <= 0 )
@@ -422,7 +422,7 @@ int64_t GatewaysVerify(char *refdepositaddr,uint256 oracletxid,int32_t claimvout
         LOGSTREAM("gatewayscc",CCLOG_INFO, stream << "GatewaysVerify cant find oracletxid " << oracletxid.GetHex() << std::endl);
         return(0);
     }
-    if ( DecodeOraclesCreateOpRet(tx.vout[numvouts-1].scriptPubKey,name,description,format) != 'C' || name != refcoin )
+    if ( DecodeOraclesCreateOpRet(tx.vout[numvouts-1].scriptPubKey,name,AnketBasligi,Soru1,Soru2,Soru3,Soru4,format) != 'C' || name != refcoin )
     {
         LOGSTREAM("gatewayscc",CCLOG_INFO, stream << "GatewaysVerify mismatched oracle name " << name << " != " << refcoin << std::endl);
         return(0);
@@ -520,7 +520,7 @@ bool GatewaysValidate(struct CCcontract_info *cp,Eval *eval,const CTransaction &
     char str[65],destaddr[65],depositaddr[65],gatewaystokensaddr[65],validationError[512];
     std::vector<uint256> txids; std::vector<CPubKey> pubkeys,publishers,tmppublishers; std::vector<uint8_t> proof; int64_t fullsupply,totalsupply,amount,tmpamount;  
     uint256 hashblock,txid,bindtxid,deposittxid,withdrawtxid,completetxid,tokenid,tmptokenid,oracletxid,bindtokenid,cointxid,tmptxid,merkleroot,mhash; CTransaction bindtx,tmptx;
-    std::string refcoin,tmprefcoin,hex,name,description,format; CPubKey pubkey,tmppubkey,gatewayspk;
+    std::string refcoin,tmprefcoin,hex,name,AnketBasligi,Soru1,Soru2,Soru3,Soru4,format; CPubKey pubkey,tmppubkey,gatewayspk;
 
     numvins = tx.vin.size();
     numvouts = tx.vout.size();
@@ -597,7 +597,7 @@ bool GatewaysValidate(struct CCcontract_info *cp,Eval *eval,const CTransaction &
                             sprintf(validationError,"cant find oracletxid %s\n",uint256_str(str,oracletxid));
                             return eval->Invalid(validationError);
                         }
-                        else if ( DecodeOraclesCreateOpRet(tmptx.vout[numvouts-1].scriptPubKey,name,description,format) != 'C' )
+                        else if ( DecodeOraclesCreateOpRet(tmptx.vout[numvouts-1].scriptPubKey,name,AnketBasligi,Soru1,Soru2,Soru3,Soru4,format) != 'C' )
                             return eval->Invalid("invalid oraclescreate OP_RETURN data");
                         else if (refcoin!=name)
                         {
@@ -868,7 +868,7 @@ std::string GatewaysBind(uint64_t txfee,std::string coin,uint256 tokenid,int64_t
 {
     CMutableTransaction mtx = CreateNewContextualCMutableTransaction(Params().GetConsensus(), komodo_nextheight());
     CTransaction oracletx; uint8_t taddr,prefix,prefix2,wiftype; CPubKey mypk,gatewayspk; CScript opret; uint256 hashBlock;
-    struct CCcontract_info *cp,*cpTokens,C,CTokens; std::string name,description,format; int32_t i,numvouts; int64_t fullsupply;
+    struct CCcontract_info *cp,*cpTokens,C,CTokens; std::string name,AnketBasligi,Soru1,Soru2,Soru3,Soru4,format; int32_t i,numvouts; int64_t fullsupply;
     char destaddr[64],coinaddr[64],myTokenCCaddr[64],str[65],*fstr;
 
     cp = CCinit(&C,EVAL_GATEWAYS);
@@ -939,7 +939,7 @@ std::string GatewaysBind(uint64_t txfee,std::string coin,uint256 tokenid,int64_t
         LOGSTREAM("gatewayscc",CCLOG_INFO, stream << CCerror << std::endl);
         return("");
     }
-    if ( DecodeOraclesCreateOpRet(oracletx.vout[numvouts-1].scriptPubKey,name,description,format) != 'C' )
+    if ( DecodeOraclesCreateOpRet(oracletx.vout[numvouts-1].scriptPubKey,name,AnketBasligi,Soru1,Soru2,Soru3,Soru4,format) != 'C' )
     {
         CCerror = strprintf("mismatched oracle name %s != %s",name.c_str(),coin.c_str());
         LOGSTREAM("gatewayscc",CCLOG_INFO, stream << CCerror << std::endl);

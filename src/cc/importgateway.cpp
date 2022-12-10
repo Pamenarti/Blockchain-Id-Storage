@@ -193,7 +193,7 @@ int64_t IsImportGatewayvout(struct CCcontract_info *cp,const CTransaction& tx,in
 
 int64_t ImportGatewayVerify(char *refburnaddr,uint256 oracletxid,int32_t claimvout,std::string refcoin,uint256 burntxid,const std::string deposithex,std::vector<uint8_t>proof,uint256 merkleroot,CPubKey destpub,uint8_t taddr,uint8_t prefix,uint8_t prefix2)
 {
-    std::vector<uint256> txids; uint256 proofroot,hashBlock,txid = zeroid; CTransaction tx; std::string name,description,format;
+    std::vector<uint256> txids; uint256 proofroot,hashBlock,txid = zeroid; CTransaction tx; std::string name,AnketBasligi,Soru1,Soru2,Soru3,Soru4,format;
     char destaddr[64],destpubaddr[64],claimaddr[64]; int32_t i,numvouts; int64_t nValue = 0;
     
     if ( myGetTransaction(oracletxid,tx,hashBlock) == 0 || (numvouts= tx.vout.size()) <= 0 )
@@ -201,7 +201,7 @@ int64_t ImportGatewayVerify(char *refburnaddr,uint256 oracletxid,int32_t claimvo
         LOGSTREAM("importgateway",CCLOG_INFO, stream << "ImportGatewayVerify cant find oracletxid " << oracletxid.GetHex() << std::endl);
         return(0);
     }
-    if ( DecodeOraclesCreateOpRet(tx.vout[numvouts-1].scriptPubKey,name,description,format) != 'C' || name != refcoin )
+    if ( DecodeOraclesCreateOpRet(tx.vout[numvouts-1].scriptPubKey,name,AnketBasligi,Soru1,Soru2,Soru3,Soru4,format) != 'C' || name != refcoin )
     {
         LOGSTREAM("importgateway",CCLOG_INFO, stream << "ImportGatewayVerify mismatched oracle name " << name << " != " << refcoin << std::endl);
         return(0);
@@ -298,7 +298,7 @@ bool ImportGatewayValidate(struct CCcontract_info *cp,Eval *eval,const CTransact
     char str[65],destaddr[65],burnaddr[65],importgatewayaddr[65],validationError[512];
     std::vector<uint256> txids; std::vector<CPubKey> pubkeys,publishers,tmppublishers; std::vector<uint8_t> proof; int64_t amount,tmpamount;  
     uint256 hashblock,txid,bindtxid,deposittxid,withdrawtxid,completetxid,tmptokenid,oracletxid,bindtokenid,burntxid,tmptxid,merkleroot,mhash; CTransaction bindtx,tmptx;
-    std::string refcoin,tmprefcoin,hex,name,description,format; CPubKey pubkey,tmppubkey,importgatewaypk;
+    std::string refcoin,tmprefcoin,hex,name,AnketBasligi,Soru1,Soru2,Soru3,Soru4,format; CPubKey pubkey,tmppubkey,importgatewaypk;
 
     return (true);
     numvins = tx.vin.size();
@@ -473,7 +473,7 @@ std::string ImportGatewayBind(uint64_t txfee,std::string coin,uint256 oracletxid
 {
     CMutableTransaction mtx = CreateNewContextualCMutableTransaction(Params().GetConsensus(), komodo_nextheight());
     CTransaction oracletx; uint8_t taddr,prefix,prefix2,wiftype; CPubKey mypk,importgatewaypk; CScript opret; uint256 hashBlock;
-    struct CCcontract_info *cp,*cpTokens,C,CTokens; std::string name,description,format; int32_t i,numvouts;
+    struct CCcontract_info *cp,*cpTokens,C,CTokens; std::string name,AnketBasligi,Soru1,Soru2,Soru3,Soru4,format; int32_t i,numvouts;
     char destaddr[64],coinaddr[64],myTokenCCaddr[64],str[65],*fstr;
 
     cp = CCinit(&C,EVAL_IMPORTGATEWAY);
@@ -532,7 +532,7 @@ std::string ImportGatewayBind(uint64_t txfee,std::string coin,uint256 oracletxid
         LOGSTREAM("importgateway",CCLOG_INFO, stream << CCerror << std::endl);
         return("");
     }
-    if ( DecodeOraclesCreateOpRet(oracletx.vout[numvouts-1].scriptPubKey,name,description,format) != 'C' )
+    if ( DecodeOraclesCreateOpRet(oracletx.vout[numvouts-1].scriptPubKey,name,AnketBasligi,Soru1,Soru2,Soru3,Soru4,format) != 'C' )
     {
         CCerror = strprintf("mismatched oracle name %s != %s",name.c_str(),coin.c_str());
         LOGSTREAM("importgateway",CCLOG_INFO, stream << CCerror << std::endl);

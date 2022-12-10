@@ -7223,8 +7223,8 @@ UniValue oraclesdata(const UniValue& params, bool fHelp)
 
 UniValue oraclescreate(const UniValue& params, bool fHelp)
 {
-    UniValue result(UniValue::VOBJ); std::string name,description,format,hex;
-    if ( fHelp || params.size() != 3 )
+    UniValue result(UniValue::VOBJ); std::string name,AnketBasligi,Soru1,Soru2,Soru3,Soru4,format,hex;
+    if ( fHelp || params.size() != 7 )
         throw runtime_error("oraclescreate name description format\n");
     if ( ensure_CCrequirements(EVAL_ORACLES) < 0 )
         throw runtime_error(CC_REQUIREMENTS_MSG);
@@ -7236,19 +7236,43 @@ UniValue oraclescreate(const UniValue& params, bool fHelp)
         ERR_RESULT("oracles name must not be empty and up to 32 characters");
         return(result);
     }
-    description = params[1].get_str();
-    if ( description.size() > 4096 )
+    AnketBasligi = params[1].get_str();
+    if ( AnketBasligi.size() > 4096 )
     {
-        ERR_RESULT("oracles description must be <= 4096 characters");
+        ERR_RESULT("oracles AnketBasligi must be <= 4096 characters");
         return(result);
     }
-    format = params[2].get_str();
+    Soru1 = params[2].get_str();
+    if ( Soru1.size() > 4096 )
+    {
+        ERR_RESULT("oracles Soru1 must be <= 4096 characters");
+        return(result);
+    }
+    Soru2 = params[3].get_str();
+    if ( Soru2.size() > 4096 )
+    {
+        ERR_RESULT("oracles Soru2 must be <= 4096 characters");
+        return(result);
+    }
+    Soru3 = params[4].get_str();
+    if ( Soru3.size() > 4096 )
+    {
+        ERR_RESULT("oracles Soru3 must be <= 4096 characters");
+        return(result);
+    }
+    Soru4 = params[5].get_str();
+    if ( Soru4.size() > 4096 )
+    {
+        ERR_RESULT("oracles Soru4 must be <= 4096 characters");
+        return(result);
+    }
+    format = params[6].get_str();
     if ( format.size() > 4096 )
     {
         ERR_RESULT("oracles format must be <= 4096 characters");
         return(result);
     }
-    hex = OracleCreate(0,name,description,format);
+    hex = OracleCreate(0,name,AnketBasligi,Soru1,Soru2,Soru3,Soru4,format);
     RETURN_IF_ERROR(CCerror);
     if ( hex.size() > 0 )
     {
